@@ -1,0 +1,8 @@
+com/messenger/lastseen_service/LastSeenServiceApplication.class
+com/messenger/lastseen_service/dto/requests/LastSeenRequest.class
+com/messenger/lastseen_service/models/LastSeenModel.class
+com/messenger/lastseen_service/services/LastSeenService.class
+com/messenger/lastseen_service/repositories/LastSeenRepository.class
+com/messenger/lastseen_service/config/CassandraConfig.class
+com/messenger/lastseen_service/dto/responses/LastSeenResponse.class
+com/messenger/lastseen_service/controllers/LastSeenController.class

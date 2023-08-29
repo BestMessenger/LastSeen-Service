@@ -1,0 +1,8 @@
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/repositories/LastSeenRepository.java
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/controllers/LastSeenController.java
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/dto/requests/LastSeenRequest.java
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/config/CassandraConfig.java
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/services/LastSeenService.java
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/LastSeenServiceApplication.java
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/models/LastSeenModel.java
+/Users/denpool/IdeaProjects/Bank_App/LastSeen-Service/src/main/java/com/messenger/lastseen_service/dto/responses/LastSeenResponse.java
