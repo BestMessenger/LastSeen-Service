@@ -1,17 +1,15 @@
 package com.messenger.lastseen_service.dto.responses;
 
+import com.messenger.lastseen_service.util.UserStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
 public class LastSeenResponse {
-
-    private int userId;
-
-    private Date timestamp;
+    private Long userId;
+    private LocalDate lastSeenDate;
+    private UserStatusEnum status;
 }
