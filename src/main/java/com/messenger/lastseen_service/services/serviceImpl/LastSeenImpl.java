@@ -11,6 +11,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 @Service
 @Data
 @AllArgsConstructor
@@ -33,8 +36,8 @@ public class LastSeenImpl implements LastSeenService {
         if (!userChecker.isExistUserInProfileService(userId)) {
             throw new NoEntityFoundException("User with id: " + userId + " doesn't exist");
         } else {
-            lastSeenRepository.save(new LastSeenModel(userId, null, UserStatusEnum.OFFLINE));
+            lastSeenRepository.save(new LastSeenModel(userId, LocalDateTime.now(), UserStatusEnum.OFFLINE));
         }
-        return new LastSeenResponse(userId, null, UserStatusEnum.OFFLINE);
+        return new LastSeenResponse(userId, LocalDateTime.now(), UserStatusEnum.OFFLINE);
     }
 }

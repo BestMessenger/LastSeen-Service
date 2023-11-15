@@ -5,11 +5,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
 public class LastSeenResponse {
     private Long userId;
-    private LocalDate lastSeenDate;
+    private LocalDateTime lastSeenDate;
     private UserStatusEnum status;
 }
