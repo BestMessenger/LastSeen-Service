@@ -48,6 +48,4 @@ public class LastSeenController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }
-//com.messenger.lastseen_service.controller.LastSeenController
-//        com.messenger.lastseen_service.controllers.LastSeenController
 
