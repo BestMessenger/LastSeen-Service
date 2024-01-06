@@ -104,7 +104,7 @@
                 <version>3.3.2</version>
                 <configuration>
                     <to>
-                        <image>docker.io/denpool/lastseen-service</image>
+                        <image>docker.io/denpool/messenger-lastseen-service</image>
                     </to>
                 </configuration>
             </plugin>
